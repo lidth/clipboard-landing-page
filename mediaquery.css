@@ -219,4 +219,20 @@
         top: 50%;
         transform: translate(-90%, -50%);
     }
+
+    .btn-1:hover{
+        background-color: #41e7ce;
+    }
+
+    .btn-2:hover{
+        background-color: #8290fa;
+    }
+
+    div.flinks a:hover{
+        color: #26BBA4;
+    }
+
+    div.fimglinks img:hover{
+        background-color: #26BBA4;
+    }
 }
