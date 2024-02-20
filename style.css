@@ -1,0 +1,251 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+section.sec-1{
+    background-image: url('images/bg-header-mobile.png');
+    height: 363px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+img.imgsec1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.sec-2{
+    height: 358px;
+    margin-bottom: 160px;
+}
+
+h1.h1sec2{
+    font-size: 32px;
+    width: 318px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #4C545C;
+}
+
+p.psec2{
+    width: 311px;
+    margin: auto;
+    text-align: center;
+    color: #9EABB2;
+    text-indent: 12px;
+    margin-bottom: 48px;
+}
+
+button.btn-1{
+    display: block;
+    margin: auto;
+    width: 311px;
+    height: 56px;
+    background-color: #26BBA4;
+    color: white;
+    font-size: 18px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 5px 10px #89E5C7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.385);
+    margin-bottom: 24px;
+}
+
+button.btn-2{
+    display: block;
+    margin: auto;
+    width: 311px;
+    height: 56px;
+    background-color: #6174FF;
+    color: white;
+    font-size: 18px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.723);
+}
+
+section.sec-3{
+    margin-bottom: 56px;
+    height: 519px;
+
+}
+
+h2.h2sec3{
+    width: 311px;
+    text-align: center;
+    font-size: 28px;
+    margin: auto;
+    color: #4C545C;
+    margin-bottom: 14px;
+}
+
+p.psec3{
+    font-size: 16px;
+    text-align: center;
+    color: #9EABB2;
+    width: 311px;
+    margin: auto;
+    margin-bottom: 65px;
+
+}
+
+img.imgsec3{
+    display: block;
+    margin: auto;
+}
+
+section.sec-4{
+    margin-bottom: 186px;
+}
+
+div.dsec4{
+    width: 311px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+h3.h3sec4{
+    font-size: 24px;
+    color: #4C545C;
+    margin-bottom: 10px;
+}
+
+p.psec4{
+    color: #9EABB2;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+section.sec-5{
+    height: 410px;
+    width: 311px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 135px;
+}
+
+h3.h3sec5{
+    margin-bottom: 16px;
+    font-size: 28px;
+    color: #4C545C;
+
+}
+
+p.psec5{
+    color: #9EABB2;
+    margin-bottom: 64px;
+}
+
+section.sec-6{
+    height: 894px;
+    margin: auto;
+    text-align: center;
+    width: 311px;
+    margin-bottom: 131px;
+}
+
+div.dsec6{
+    margin-bottom: 90px;
+}
+
+h3.h3sec6{
+    color: #4C545C;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+p.psec6{
+    font-size: 16px;
+    color: #9EABB2;
+}
+
+img.imgsec6{
+    margin-bottom: 40px;
+}
+
+section.sec-7{
+    height: 439px;
+    width: 139px;
+    margin: auto;
+    margin-bottom: 170px;
+    text-align: center;
+}
+
+section.sec-7 img{
+margin-bottom: 65px;
+}
+
+section.sec-8{
+    height: 372px;
+    width: 311px;
+    margin: auto;
+    margin-bottom: 170px;
+}
+
+h3.h3sec8{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #4C545C;
+}
+
+p.psec8{
+    color: #9EABB2;
+    margin-bottom: 46px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #F5F6F7;
+    height: 500px;
+}
+
+div.dfoot{
+    height: 146px;
+    text-align: center;
+    position: relative;
+}
+
+img.imgfooter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.flinks{
+    height: 230px;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+div.flinks a{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4C545C;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+div.fimglinks{
+    width: 170px;
+    margin: auto;
+}
