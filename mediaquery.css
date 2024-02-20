@@ -110,34 +110,113 @@
     }
 
     section.sec-6{
-        height: 382px;
-        margin: auto;
-        text-align: center;
         width: 1110px;
+        height: 382px;
+    }
+
+    .dsec6{
+        width: fit-content;
+    }
+
+    .dsec62{
+        width: 730px;
+        margin: auto;
+    }
+
+
+    .d2sec6{
+        display: inline-block;
+    }
+
+    p.psec6{
+        width: 350px;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    section.sec-7{
+        height: 122px;
+        width: 1110px;
+        margin: auto;
         margin-bottom: 150px;
     }
     
-    div.dsec6{
-        display: inline-block;
+    section.sec-7 img{
+    margin-bottom: 0px;
+    margin-right: 95px;
+    }
+
+    section.sec-8{
+        height: 228px;
+        width: 730px;
+        margin: auto;
+        margin-bottom: 150px;
     }
     
-
-    h3.h3sec6{
+    h3.h3sec8{
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 19px;
         color: #4C545C;
-        font-size: 24px;
-        margin-bottom: 18px;
     }
     
-    p.psec6{
-        font-size: 16px;
+    p.psec8{
         color: #9EABB2;
+        margin-bottom: 48px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    div.btns2{
+        margin: auto;
+        width: fit-content;
+    }
+
+
+    footer{
+        background-color: #F5F6F7;
+        height: 150px;
+        position: relative;
     }
     
-    img.imgsec6{
-        margin-bottom: 40px;
+    div.dfoot{
+        height: 55px;
+        width: 55px;
+        position: absolute;
+        top: 40px;
+        left: 164px;
+    }
+    
+    img.imgfooter{
+        position: relative;
+    }
+    
+    div.flinks{
+        height: 72px;
+        width: 635px;
+        margin-bottom: 0px;
+        margin-left: 300px;
+    }
+    
+    div.flinks a{
+        display: inline-block;
+        margin-bottom: 12px;
+        color: #4C545C;
+        text-decoration: none;
+        font-size: 18px;
+        width: 160px;
+        text-align: left;
+    }
+    div.ddflinks{
+        display: inline-block;
+        margin-top: 35px;
     }
 
-
-
-
+    div.fimglinks{
+        width: 170px;
+        position: absolute;
+        left: 90%;
+        top: 50%;
+        transform: translate(-90%, -50%);
+    }
 }
